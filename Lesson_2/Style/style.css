@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(183, 240, 241);
+    font-size: 45px;
+}
+h1{
+    color: darkslategray;
+}
+.films li{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+}
+ol{
+    background-color: rgb(238, 180, 159);
+    padding: 20px;
+    margin: 10px;
+
+}
+a{
+    color: rgb(40, 3, 74);
+    text-decoration: none;
+    font-size: 45px;
+    text-transform: uppercase;
+    display: block;
+}
+.hobbies li{
+    border: 2px solid rgb(5, 75, 46);
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+} 
+

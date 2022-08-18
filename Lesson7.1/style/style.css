@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.personal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.personal label{
+    width: 48%;
+}
+
+.personal label input{
+    width: 100%;
+}
+
+
+
+
+
+input{
+    box-sizing: border-box;
+    border: 2px solid black;
+    
+}
+
+input:focus, textarea:focus{
+    outline:  none;
+    border: 2px solid #e74c3c;
+}
+
+
+
+button{
+    width: 50%;
+    height: 40px;
+    align-self: flex-end;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
